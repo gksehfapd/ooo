@@ -5,7 +5,7 @@ import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth'
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 
-export default function Home() {
+export default function CreateAccount() {
 	const router = useRouter()
 	const [isLoading, setLoading] = useState(false)
 	const [name, setName] = useState('')
